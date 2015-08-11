@@ -1,0 +1,44 @@
+.container {
+    width: 100%;
+    min-height: 1px;
+}
+
+
+.terminal {
+    padding-left: 5px;
+    position: absolute;
+    width: 400px;
+
+    height: 300px;
+    overflow: hidden;
+    bottom:calc(100% - 320px);
+    background-color: azure;
+    border: 1px solid black;
+    left:calc(50% - 200px);
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+
+    transition: all 2s ease-in-out;
+}
+
+/*.setMiddle {*/
+    /*text-align: center;*/
+    /*margin-left: auto;*/
+    /*margin-right: auto;*/
+/*}*/
+
+.newDivPosition {
+    position: fixed;
+    bottom:0;
+    left:50%;
+    height:300px;
+    width: 30%;
+    background-color: black;
+    transition: all 2s ease-in-out;
+}
+
+
+
+
+

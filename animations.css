@@ -1,0 +1,22 @@
+
+.moveToLeftAnimation {
+    /*animation: moveToLeft 5s steps(50, start);*/
+    left:0;
+}
+
+.moveToRightAnimation {
+    right:0;
+}
+
+.moveToBottom {
+    bottom:0;
+}
+
+.height200px {
+    height:200px;
+}
+
+.width600px {
+    width:600px;
+    left: calc(50% - 300px);
+}
