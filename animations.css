@@ -20,3 +20,8 @@
     width:600px;
     left: calc(50% - 300px);
 }
+
+.makeItRain {
+    left:calc(50% - 200px);
+}
+

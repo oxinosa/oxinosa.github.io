@@ -2,6 +2,7 @@
 <html>
 <head>
     <title></title>
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/highlight.js/8.7/styles/default.min.css">
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="animations.css"/>
 
@@ -9,14 +10,24 @@
 <body>
 
 <div class="container">
-    <div id="terminal" class="terminal setMiddle">
-        <pre class="" style="float:left;margin:0;text-align: left;" id="msg">
+    <!--<div id="terminal" class="terminal terminal-normal">-->
+        <!--<pre class="" style="float:left;margin:0;text-align: left;" id="msg">-->
+
+        <!--</pre>-->
+    <!--</div>-->
+
+    <div id="terminal-right" class="terminal-fullScreen">
+        <pre id="msg-right">
 
         </pre>
     </div>
+
 </div>
 
-
+<script src="//cdn.jsdelivr.net/highlight.js/8.7/highlight.min.js"></script>
+<script src="TerminalEffect.js"></script>
+<script src="MainTerminalBehaviors/MainTerminal.js"></script>
+<script src="MainTerminalBehaviors/CodeTerminal.js"></script>
 <script src="textEffect.js"></script>
 
 </body>

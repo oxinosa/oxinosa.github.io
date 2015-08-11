@@ -28,6 +28,11 @@ var messageObj2 = [
 
 
 
+
+
+
+
+
 function SetText(row, index, initObj){
     var domElement = document.getElementById(initObj.domTargetId);
 
@@ -70,7 +75,10 @@ function start(){
         index:0,
         domTargetId:"msg"
     };
-    showNext(initObject);
+    //showNext(initObject);
+    //new TerminalEffect().showNext(initObject);
+
+    //MainTerminal_Start();
 }
 
 function changeBackgroundColor(){
@@ -99,7 +107,6 @@ function makeFatter() {
     var _b = document.getElementById("terminal");
     _b.classList.add("width600px");
 }
-
 
 
 (function(){
