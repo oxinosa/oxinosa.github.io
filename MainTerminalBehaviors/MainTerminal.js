@@ -64,6 +64,10 @@ function makeItNormal() {
     _b.classList.add("terminal-normal");
 }
 
+function newFunction() {
+    console.log("whatever");
+}
+
 
 function makeItBadass() {
     var _b = document.getElementById("terminal-right");
